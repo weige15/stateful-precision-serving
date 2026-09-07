@@ -1,0 +1,24 @@
+{
+  "command": "CUDA_VISIBLE_DEVICES='' PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src:vendor /nfs/home/s314511048/.venv/bin/python scripts/check_artifacts.py",
+  "exit_code": 0,
+  "final_focused_tests": 16,
+  "final_full_cpu_tests": 29,
+  "goal_complete": false,
+  "independent_audit": "raw/audit-002/data/audit.json",
+  "independent_audit_sha256": "f45f5b8536988c429c0eac908b3922c6df8cd6316b143c33c9ce9986080b660f",
+  "log": "raw/packet-check-001/check.log",
+  "log_sha256": "b825f0d8f34af0d6c6df27b5ac7a7ee02194e1789d6e040ec693314054ad08e3",
+  "packet_manifest": "evidence/artifacts.json",
+  "packet_manifest_sha256": "935cdf1d51ded3b2f2b8ea06839ed332e63dbbecea20a4129288ab80a0e8b5fa",
+  "result": {
+    "decision": "pause_blocked",
+    "goal_complete": false,
+    "gpu_seconds": 0,
+    "input_hashes_pass": 20,
+    "main_prompts": 0,
+    "packet_hashes_pass": 155,
+    "pinned_blobs_pass": 76,
+    "scope": "CPU correctness and blockage only",
+    "upstream_status_unchanged": true
+  }
+}

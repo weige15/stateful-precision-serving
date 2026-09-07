@@ -1,0 +1,10 @@
+{
+  "gpu_seconds": 0,
+  "budget_seconds": 14400,
+  "reservations": [],
+  "real_pilot_prompts": 0,
+  "real_main_prompts": 0,
+  "preflight": "raw/gpu-jobs/preflight-001",
+  "decision": "pause_blocked",
+  "goal_complete": false
+}
